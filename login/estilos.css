@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to right,yellow,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.grupo{
+    background: linear-gradient(to right, yellow, transparent);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilo del formulario */
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de los campos de entrada */
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btnenviar {
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnenviar:hover {
+    background-color: #0056b3; 
+}
+/* efecto zoom
+img{
+    transition: transform 0.3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+
+}*/
+/* efecto burbuja
+.container {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px; /
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.container:hover {
+    transform: translateY(-10px); 
+}*/
+
+/*
+.logo-container {
+    overflow: hidden; /* Ocultar partes del logo que se salen del contenedor 
+    border-radius: 10px; /* Opcional: bordes redondeados 
+}
+
+.logo {
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario 
+    transition: transform 0.3s ease; /* Transición suave para el efecto 
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Aumentar el tamaño al pasar el mouse 
+}*/
